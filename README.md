@@ -1,2 +1,2 @@
-# .dotfiles
-My .dotfiles for easy access.
+# Utility files
+Utility files for quick reference
