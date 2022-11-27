@@ -25,6 +25,7 @@
 		"no-console": "warn",
 		"no-duplicate-imports": "error",
 		"spaced-comment": ["error", "always", { "markers": ["/", "!", "?"] }],
+		"arrow-body-style": ["warn", "as-needed"],
 		"import/no-cycle": "error",
 		"import/prefer-default-export": "off",
 		"import/extensions": [
@@ -36,6 +37,13 @@
 			1,
 			{ "allow": "as-needed", "extensions": [".jsx", ".tsx"] }
 		],
+		"react/function-component-definition": [
+      "warn",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
 		"react/prop-types": "off",
 		"react/hook-use-state": ["error"],
 		"react/self-closing-comp": "warn",
