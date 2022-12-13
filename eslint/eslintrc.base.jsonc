@@ -26,6 +26,7 @@
 		"no-duplicate-imports": "error",
 		"spaced-comment": ["error", "always", { "markers": ["/", "!", "?"] }],
 		"arrow-body-style": ["warn", "as-needed"],
+		"@typescript-eslint/no-empty-function": "off",
 		"import/no-cycle": "error",
 		"import/prefer-default-export": "off",
 		"import/extensions": [
