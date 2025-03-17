@@ -1,12 +1,6 @@
-/** @type {import("eslint").Linter.Config} */
-module.exports = {
-	extends: ["./base.js", "./typescript.js", "plugin:node/recommended"],
-	rules: {
-		"node/prefer-promises/fs": "error",
-		"node/no-missing-import": "off",
-	},
-	env: {
-		node: true,
-		es6: true,
-	},
-};
+import tseslint from "typescript-eslint";
+
+import base from "./base.js";
+import typescript from "./typescript.js";
+
+export default tseslint.config(base, typescript);
